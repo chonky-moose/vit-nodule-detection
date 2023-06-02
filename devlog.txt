@@ -1,0 +1,17 @@
+--------------- 2023.06.02 -------------
+Started training with no augmentations,
+simple balancing with WeightedRandomSampler.
+
+fluent-cherry-5.pt training loss 0.0387945756
+Using test dataset at /mnt/d/data/snu_snub_test_normal_nodule_only
+WeightedRandomSampler to make normal:nodule=50:50.
+ROC AUC:  0.8952923910589298
+AUC PR:  0.8656976836467465
+F1:  [0.90292553 0.88888889]
+
+fluent-cherr-5-epoch0012.pt
+Using test dataset at /mnt/d/data/snu_snub_test_normal_nodule_only
+normal:nodule=1:1 (WeightedRandomSampler)
+ROC AUC:  0.9125420373457954
+AUC PR:  0.8813249328483486
+F1:  [0.9252218  0.90483871]

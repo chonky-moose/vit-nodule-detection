@@ -1,0 +1,4 @@
+*.pt
+*.pth
+wandb/
+__pycache__/
